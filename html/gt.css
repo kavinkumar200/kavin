@@ -1,0 +1,44 @@
+/* Reset default margin and padding for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the profile card container */
+.profile-card {
+    max-width: 300px; /* Adjust the width to your preference */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Style the profile picture */
+.profile-card img {
+    width: 150px; /* Adjust the image size */
+    height: 150px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    margin-bottom: 10px;
+}
+
+/* Style the name */
+.profile-card h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the description */
+.profile-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.responsive-image{
+    max-width: 100%;
+    height: auto;
+}

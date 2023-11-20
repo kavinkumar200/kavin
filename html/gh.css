@@ -1,0 +1,15 @@
+/* Define a class for styling the button */
+.my-button {
+    background-color: #007bff; /* Set the background color */
+    color: #fff; /* Set the text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change the cursor on hover to indicate interactivity */
+}
+
+/* Add a hover effect */
+.my-button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+    color: aqua;
+}
