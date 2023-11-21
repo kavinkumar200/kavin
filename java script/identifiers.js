@@ -1,0 +1,3 @@
+myCollege
+$alary
+_privatevariable
