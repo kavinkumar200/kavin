@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label id="myRectangle"></label>
+    <script>
+        let symbol = window.prompt("enter the symbol to use");
+        let rows = window.prompt("enter the rows:");
+        let columns = window.prompt("enter the columns:");
+         for(let i=1; i<=rows;i+=1){
+            for(let j=1; j<=columns;j+=1){
+                document.getElementById("myRectangle").innerHTML += symbol;
+
+         }
+         document.getElementById("myRectangle").innerHTML += "<br>";
+        }
+    </script>
+</body>
+</html>

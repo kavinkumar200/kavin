@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="myCheckBox">subscribe</label>
+    <input type="checkbox" id="myCheckBox" >
+
+    <label for="visabtn">visa</label>
+    <input type="radio" name="card" id="visabtn">
+    
+    <label for="mastercardbtn">mastercard</label>
+    <input type="radio" name="card" id="mastercardbtn">
+
+    <label for="paypalbtn">paypal</label>
+    <input type="radio" name="card" id="paypalbtn">
+    
+    <button id="myButton">submit</button>
+
+    <script>
+        document.getElementById("myCheckBox").onclick = function() {
+            const myCheckBox=document.getElementById("myCheckBox");
+            const visabtn=document.getElementById("visabtn");
+            const mastercardbtn=document.getElementById("mastercardbtn");
+            const paypalbtn=document.getElementById("paypalbtn");
+
+            if (myCheckBox.checked) {
+                console.log("you are subscribed");
+            }
+            else{
+                console.log("you are not subscribed");
+            }
+
+            if (visabtn.checked) {
+                console.log("you are subscribe with visa")
+            }
+            else if(mastercardbtn.checked){
+                console.log("you are subscribe with mastercard");
+            }
+            else if(paypalbtn.checked){
+                console.log("you are subscribe with paypal");
+            }
+            else{
+                console.log("you are not select any payment method!");
+            }
+        }
+    </script>
+</body>
+</html>
